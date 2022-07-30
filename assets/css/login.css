@@ -1,0 +1,20 @@
+section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.seperator{
+    display: flex;
+    align-items: center;
+}
+.seperator h5{
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+}
+.line{
+    flex: 1;
+   background-color: black;
+    height: 3px;
+}
