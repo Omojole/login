@@ -1,12 +1,18 @@
 section{
     height: 100vh;
+border: 1px solid rgb(90, 199, 213);
+
+}
+body{
+    background-image: url(../image/login\ img.jpg);
+    background-size: cover;
+
+}
+.center{
+    margin-top: 10vh;
     display: flex;
     justify-content: center;
-    background-image: url(../image/login\ img.jpg);
-}
-.section{
-    width: 100vw;
-    height: 100vh;
+    align-items: center;
 }
 .seperator{
     display: flex;
@@ -19,16 +25,15 @@ section{
 }
 .form{
     background-color: rgb(255, 255, 255);
-    height: 70vh;
-    width: 50vw;
-    margin-left: 19rem;
-    margin-top: 18vh;
+    height: 80vh;
+    width: 40vw;
     padding:6px 14px 0 14px;
+    margin-bottom: 4vh;
 }
 .line{
     flex: 1;
-   background-color: rgb(154, 151, 151);
-    height: 3px;
+   background-color: rgb(190, 183, 183);
+    height: 1px;
 }
 .sign-up{
     float: right;
@@ -45,19 +50,69 @@ a:hover{
     color: rgb(45, 170, 45);
 }
 .pass{
+    margin-top: 12vh;
     display: flex;
     justify-content: space-between;
 }
 input.input{
-    margin-top: 12px;
-    margin-bottom: 12px;
-    width: 25vw;
+    width: 30vw;
     height: 4vh;
 }
+.input-1{
+    margin-bottom: 12px;
+}
+small{
+    color: rgb(222, 40, 40);
+}
 .login{
-    margin-top: 5vh;
+    margin-top: 10vh;
     width: 10vw;
 }
 .label{
     color: rgb(45, 170, 45) ;
 }
+button{
+  background-color: pink;
+   color: rgb(228, 74, 156);
+   border-radius: 5px;
+   border: none;
+   height: 4vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+button:hover{
+    transform: scale(1.2);
+}
+.img{
+    width: 18px;
+    margin-right: 3px;
+}
+.terms{
+    margin-top:10px ;
+}
+.signup{
+margin-top: 6vh;
+}
+@media  screen and (max-width:400px){
+    .pass{
+        flex-direction: column;
+    }
+    .check{
+        margin-bottom: 8px;
+    }
+    input.input{
+width: 100%;
+    }
+    .form{
+        width: 80vw;
+        height:85vh ;
+    }
+}
+/*@media screen and(max-width:900px) and (min-width:501px) {
+.form{
+    width: 90vw;
+    height: 70vh;
+}
+    }
+    *\
