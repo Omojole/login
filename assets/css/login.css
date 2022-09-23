@@ -25,8 +25,8 @@ body{
 }
 .form{
     background-color: rgb(255, 255, 255);
-    /* height: 80vh; */
-    width: 90vw;
+    height: 75vh;
+    width: 500px;
     padding:6px 14px 0 14px;
     margin-bottom: 4vh;
 }
