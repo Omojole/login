@@ -15,7 +15,7 @@
         <div class="center">
             <div>
                 <div class="form">
-                    <form action="">
+                    <form action="result.html" method="get" target="_blank">
                         <h4>Login</h4>
                         <button><img src="./assets/image/google.png" alt="img" class="img">
                             <h4> Sign in with google</h4>
@@ -25,15 +25,17 @@
                             <h5 class="label">or Sign in with email</h5>
                             <div class="line"></div>
                         </div>
+                        <div>
                         <label for="email" class="label"> Email*</label>
                         <br>
-                        <input type="text" class="input input-1" placeholder="someone@gmail.com">
-                        <br>
+                        <input type="email" class="input input-1" placeholder="someone@gmail.com" id="email" name="email" required>
+                        </div>
+                        <div>
                         <label for="Password" class="label">Password*</label>
                         <br>
                         <input type="password" class="input"
-                            placeholder="Password">
-                            <br>
+                            placeholder="Password" id="password" name="password" required>
+                        </div>
                             <div class="pass">
                             <span class="check"> <input type="checkbox">Remember me</span>
                             <a href="">Forgot password?</a>

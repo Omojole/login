@@ -13,7 +13,7 @@
     <div class="center">
         <div>
             <div class="form">
-                <form action="">
+                <form action="result.html" target="_blank" method="get">
                     <h4>Sign Up</h4>
                     <button><img src="./assets/image/google.png" alt="img" class="img">
                         <h4> Sign up with google</h4>
@@ -23,26 +23,42 @@
                         <h5 class="label">or Sign up with email</h5>
                         <div class="line"></div>
                     </div>
+                    <div>
                     <label for="Surname" class="label"> Surname*</label>
                     <br>
-                    <input type="text" class="input input-1">
+                    <input type="text" name="Surname" class="input input-1" id="Surname"required>
+                    </div>
+                    <div>
+                    <label for="First-name" class="label">First-name*</label>
                     <br>
-                    <label for="First name" class="label">First-name*</label>
-                    <br>
-                    <input type="text" class="input input-1">
-                    <br>
+                    <input type="text" class="input input-1" name="First-name" id="First-name"required >
+                    </div>
+                    <div>
                     <label for="email" class="label"> Email*</label>
                     <br>
-                    <input type="email" class="input input-1">
-                    <br>
+                    <input type="email" class="input input-1" name="email" id="email"required>
+                    </div>
+                    <div>
                     <label for="Password" class="label">Password*</label>
                     <br>
-                    <input type="password" class="input" placeholder="Password">
-                    <br>
+                    <input type="password" class="input" placeholder="Password" id="password" name="password"required>
+                    </div>
                     <small>minimum of 8 characters including Uppercase letter and number</small>
+                    <div>
+                        <label for="tel" class="label">Phone number*</label>
+                        <br>
+                        <input type="tel" class="input input-1" name="Phone number" id="tel" placeholder="+234 1234 567 890" maxlength="13" required>
+                        </div>
+                        <div>
+                            <label for="birthdate" class="label">Date of birth*</label>
+                            <br>
+                            <input type="date" class="input" name="Date of birth" min="1-1-2022"  id="birthdate"required>
+                            </div>
+        
+    
                     <div class="terms"> <input type="checkbox">I agree to the terms and conditions</div>
 
-                    <button type="submit" class="signup">Sign Up</button>
+                    <button type="submit" class="signup-btn">Sign Up</button>
                 </form>
             </div>
             <a href="./login.html">Already have an account?Sign In</a>
